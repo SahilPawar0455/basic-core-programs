@@ -8,6 +8,7 @@ public class HarmonicNumber {
         System.out.println("Enter the Number");
         double result = 0.0;
         int number = scanner.nextInt();
+        System.out.println("Harmonic Number Series ");
         for (int i = number; i > 0; i--) {
             result = result + (double) 1 / i;
             System.out.print(result + " ,");
